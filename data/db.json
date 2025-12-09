@@ -1,0 +1,170 @@
+{
+  "borrowers": [
+    {
+      "id": "b6e5a942-0446-4c1c-a978-0024008f710e",
+      "external_id": null,
+      "first_name": "Kenneth William",
+      "last_name": "Sareno",
+      "email": "kenneth@gmail.com",
+      "phone": "09876543212",
+      "date_of_birth": "2025-12-08",
+      "status": "active",
+      "created_at": "2025-12-08T01:54:16.490Z",
+      "updated_at": "2025-12-08T01:54:16.490Z"
+    },
+    {
+      "id": "6d1fc105-340d-4201-a7c4-d5d5fa91549e",
+      "external_id": null,
+      "first_name": "Jericho",
+      "last_name": "Valerio",
+      "email": "jericho@gmail.com",
+      "phone": "09123456789",
+      "date_of_birth": "2025-12-09",
+      "status": "active",
+      "created_at": "2025-12-09T06:59:39.920Z",
+      "updated_at": "2025-12-09T06:59:39.920Z"
+    }
+  ],
+  "books": [
+    {
+      "id": "3fd93ad6-5d65-4c5f-8394-9cb9a0717545",
+      "isbn": "9781558615007",
+      "title": "Women Writing Africa",
+      "author": "A. Busia (Editor), Aminata Diaw, Esi Sutherland-Addy",
+      "category": "Non-Fiction",
+      "copies_total": 3,
+      "copies_available": 3,
+      "created_at": "2025-12-08T01:59:10.543Z",
+      "updated_at": "2025-12-09T07:10:51.821Z"
+    },
+    {
+      "id": "730665a3-649e-463c-9a7e-752165e45084",
+      "isbn": "9780061120084",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "copies_total": 2,
+      "copies_available": 2,
+      "created_at": "2025-12-09T07:02:43.542Z",
+      "updated_at": "2025-12-09T07:02:43.542Z"
+    },
+    {
+      "id": "5276b803-7369-4d4c-83aa-eb51b35c5329",
+      "isbn": "9780062316097",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "category": "Non-Fiction",
+      "copies_total": 4,
+      "copies_available": 4,
+      "created_at": "2025-12-09T07:03:22.177Z",
+      "updated_at": "2025-12-09T07:03:22.177Z"
+    },
+    {
+      "id": "30a84fc0-d637-43eb-925e-75174ab6fc64",
+      "isbn": "9780553380163",
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "category": "Science",
+      "copies_total": 5,
+      "copies_available": 4,
+      "created_at": "2025-12-09T07:03:55.644Z",
+      "updated_at": "2025-12-09T07:10:02.981Z"
+    },
+    {
+      "id": "c62eb4f7-b8ed-4526-b867-9c7f4f7f29cd",
+      "isbn": "9780743267520",
+      "title": "The Innovators",
+      "author": "Walter Isaacson",
+      "category": "Technology",
+      "copies_total": 3,
+      "copies_available": 3,
+      "created_at": "2025-12-09T07:04:21.886Z",
+      "updated_at": "2025-12-09T07:04:21.886Z"
+    },
+    {
+      "id": "3ec9fa9a-363b-4013-a1b6-11baffb1d08d",
+      "isbn": "9780393317558",
+      "title": "Guns, Germs, and Steel",
+      "author": "Jared Diamond",
+      "category": "History",
+      "copies_total": 6,
+      "copies_available": 6,
+      "created_at": "2025-12-09T07:04:53.175Z",
+      "updated_at": "2025-12-09T07:04:53.175Z"
+    },
+    {
+      "id": "99704db2-501a-4f7b-9c4b-7f83913e4798",
+      "isbn": "9780714832470",
+      "title": "The Story of Art",
+      "author": "E.H. Gombrich",
+      "category": "Arts",
+      "copies_total": 2,
+      "copies_available": 2,
+      "created_at": "2025-12-09T07:05:18.620Z",
+      "updated_at": "2025-12-09T07:05:18.620Z"
+    },
+    {
+      "id": "4bbbe295-a9a6-41d0-b606-74a2f5a06c14",
+      "isbn": "9780399226908",
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "category": "Children",
+      "copies_total": 4,
+      "copies_available": 4,
+      "created_at": "2025-12-09T07:05:41.432Z",
+      "updated_at": "2025-12-09T07:05:41.432Z"
+    },
+    {
+      "id": "d68d6f42-77e1-479d-a148-20cd15de5a60",
+      "isbn": "9780205632647",
+      "title": "The Elements of Style",
+      "author": "William Strunk Jr. and E.B. White",
+      "category": "Reference",
+      "copies_total": 8,
+      "copies_available": 8,
+      "created_at": "2025-12-09T07:06:15.248Z",
+      "updated_at": "2025-12-09T07:06:15.248Z"
+    },
+    {
+      "id": "83232d78-bef4-4b1c-a7f7-0579a3ae2e2c",
+      "isbn": "9780262033848",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen et al.",
+      "category": "Textbook",
+      "copies_total": 4,
+      "copies_available": 4,
+      "created_at": "2025-12-09T07:06:40.499Z",
+      "updated_at": "2025-12-09T07:06:40.499Z"
+    }
+  ],
+  "loans": [
+    {
+      "id": "010a951f-5904-4611-a5ee-9057b18d1905",
+      "borrower_id": "b6e5a942-0446-4c1c-a978-0024008f710e",
+      "book_id": "3fd93ad6-5d65-4c5f-8394-9cb9a0717545",
+      "loaned_at": "2025-12-08T02:00:13.895Z",
+      "due_at": "2025-12-22T02:00:13.895Z",
+      "returned_at": "2025-12-08T02:09:37.194Z",
+      "status": "returned"
+    },
+    {
+      "id": "972c4f74-2ee3-4566-b2af-c47c2425be6a",
+      "borrower_id": "b6e5a942-0446-4c1c-a978-0024008f710e",
+      "book_id": "3fd93ad6-5d65-4c5f-8394-9cb9a0717545",
+      "loaned_at": "2025-12-08T02:10:21.428Z",
+      "due_at": "2025-12-22T02:10:21.428Z",
+      "returned_at": "2025-12-09T07:10:51.821Z",
+      "status": "returned"
+    },
+    {
+      "id": "4c50a658-f983-43bc-bbdb-1de0e5555c4d",
+      "borrower_id": "6d1fc105-340d-4201-a7c4-d5d5fa91549e",
+      "book_id": "30a84fc0-d637-43eb-925e-75174ab6fc64",
+      "loaned_at": "2025-12-09T07:10:02.981Z",
+      "due_at": "2025-12-23T07:10:02.981Z",
+      "returned_at": null,
+      "status": "active"
+    }
+  ],
+  "aliases": []
+}
