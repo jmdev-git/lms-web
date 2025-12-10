@@ -66,9 +66,9 @@
       "author": "Stephen Hawking",
       "category": "Science",
       "copies_total": 5,
-      "copies_available": 4,
+      "copies_available": 5,
       "created_at": "2025-12-09T07:03:55.644Z",
-      "updated_at": "2025-12-09T07:10:02.981Z"
+      "updated_at": "2025-12-10T09:27:02.606Z"
     },
     {
       "id": "c62eb4f7-b8ed-4526-b867-9c7f4f7f29cd",
@@ -162,8 +162,8 @@
       "book_id": "30a84fc0-d637-43eb-925e-75174ab6fc64",
       "loaned_at": "2025-12-09T07:10:02.981Z",
       "due_at": "2025-12-23T07:10:02.981Z",
-      "returned_at": null,
-      "status": "active"
+      "returned_at": "2025-12-10T09:27:02.606Z",
+      "status": "returned"
     },
     {
       "id": "076a0ac4-1831-4d4e-8147-267b81a6fc64",

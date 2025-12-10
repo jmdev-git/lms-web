@@ -2,7 +2,8 @@ import ClientBook from "./ClientBook";
 import ClientBooksTable from "./ClientBooksTable";
 
 export default async function BooksPage() {
-  const res = await fetch("http://localhost:3000/api/books", {
+  const base = (process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000").replace(/\/$/, "");
+  const res = await fetch(`${base}/api/books`, {
     cache: "no-store",
   });
   const books = await res.json();

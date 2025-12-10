@@ -2,7 +2,7 @@ import { Users, Book, HandCoins, AlertTriangle } from "lucide-react";
 
 export default async function DashboardPage() {
   const [dashboardRes] = await Promise.all([
-    fetch("http://localhost:3000/api/dashboard", { cache: "no-store" }),
+    fetch(`${(process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000").replace(/\/$/, "")}/api/dashboard`, { cache: "no-store" }),
   ]);
   const dashboard = await dashboardRes.json();
   return (

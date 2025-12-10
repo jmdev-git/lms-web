@@ -1,7 +1,8 @@
 import ClientBorrower from "./ClientBorrower";
 
 export default async function BorrowersPage() {
-  const res = await fetch("http://localhost:3000/api/borrowers", { cache: "no-store" });
+  const base = (process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000").replace(/\/$/, "");
+  const res = await fetch(`${base}/api/borrowers`, { cache: "no-store" });
   const borrowers = await res.json();
   return (
     <div className="space-y-8">
