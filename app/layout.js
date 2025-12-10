@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import AppHeader from "@/components/AppHeader";
+import ChatFAB from "@/components/ChatFAB";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <AppHeader />
         <main className="max-w-6xl mx-auto px-6 py-8 bg-background">{children}</main>
+        <ChatFAB />
       </body>
     </html>
   );

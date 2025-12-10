@@ -33,9 +33,9 @@
       "author": "A. Busia (Editor), Aminata Diaw, Esi Sutherland-Addy",
       "category": "Non-Fiction",
       "copies_total": 3,
-      "copies_available": 3,
+      "copies_available": 2,
       "created_at": "2025-12-08T01:59:10.543Z",
-      "updated_at": "2025-12-09T07:10:51.821Z"
+      "updated_at": "2025-12-10T08:49:47.405Z"
     },
     {
       "id": "730665a3-649e-463c-9a7e-752165e45084",
@@ -162,6 +162,15 @@
       "book_id": "30a84fc0-d637-43eb-925e-75174ab6fc64",
       "loaned_at": "2025-12-09T07:10:02.981Z",
       "due_at": "2025-12-23T07:10:02.981Z",
+      "returned_at": null,
+      "status": "active"
+    },
+    {
+      "id": "076a0ac4-1831-4d4e-8147-267b81a6fc64",
+      "borrower_id": "b6e5a942-0446-4c1c-a978-0024008f710e",
+      "book_id": "3fd93ad6-5d65-4c5f-8394-9cb9a0717545",
+      "loaned_at": "2025-12-10T08:49:47.405Z",
+      "due_at": "2025-12-24T08:49:47.405Z",
       "returned_at": null,
       "status": "active"
     }
