@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes soldout-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.8); }
+  100% { box-shadow: 0 0 0 16px rgba(239, 68, 68, 0); }
+}
+
+.soldout-flash {
+  animation: soldout-pulse 900ms ease-out;
+}
